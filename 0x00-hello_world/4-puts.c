@@ -1,0 +1,11 @@
+#include<stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return : return 0 if itwork with succes.
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
