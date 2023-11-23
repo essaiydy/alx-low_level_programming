@@ -4,3 +4,9 @@ OBJ = $(SRC: .c=.o)
 NAME = school
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
+
+main: main.c
+	gcc -c main.c
+
+schools: school.c
+	gcc -c school.c
